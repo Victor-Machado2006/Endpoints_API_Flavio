@@ -1,0 +1,22 @@
+info:
+  name: Me (Quem sou eu?)
+  type: http
+  seq: 3
+
+http:
+  method: GET
+  url: https://alunos-ads-api-production.up.railway.app/auth/me
+  headers:
+    - name: Token
+      value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjQxLCJtYXRyaWN1bGEiOiIyNS0xNDc5MiIsInJvbGUiOiJBTFVOTyIsImlhdCI6MTc3ODI4Nzg4NSwiZXhwIjoxNzc4ODkyNjg1fQ.vcevhKrhd2TuW8GLcrdL4NFFT0S0BRnJzk-Go8CRcHY
+  params:
+    - name: ""
+      value: ""
+      type: query
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
